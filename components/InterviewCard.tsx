@@ -21,7 +21,7 @@ const InterviewCard = async ({ id, userId, role, type, techstack, createdAt }: I
                         <p className="badge-text">{normalizedType}</p>
                     </div>
 
-                    <Image src={getRandomInterviewCover()} alt="cover image" width={90} height={90} className="rounded-full object-fit size-[90px]" />
+                    {/*<Image src={getRandomInterviewCover()} alt="cover image" width={90} height={90} className="rounded-full object-fit size-[90px]" />*/}
 
                     <h3 className="mt-5 capitalize">
                         {role} Interview
